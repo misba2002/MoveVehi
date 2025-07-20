@@ -1,0 +1,85 @@
+html{
+    background: url("/images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin: 0%;
+   padding: 0%;
+   height: 100vh;
+    
+}
+#map{
+    flex: 1;
+    height: 80vh;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.btn{
+    margin-top: 5px;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: 0 2px black;
+    transition: all 0.2s ease;
+    
+   
+    
+
+}
+
+.controls {
+    text-align: center;
+    gap: 10px;
+}
+.playBtn{
+    background-color:aqua;
+}
+
+.playBtn:hover {
+    background-color: #00e1e1;
+}
+
+
+
+.stopBtn{
+    background-color: rgb(237, 75, 75);
+}
+.stopBtn:hover {
+    background-color: rgb(255, 0, 0);
+}
+.speed-label{
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+
+.speed-label select {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg,blue,aqua,red);
+    cursor: pointer;
+    
+}
+
+label{
+    font-size: larger;
+    color:rgb(149, 244, 247);
+    font-weight: bolder;
+}
+
+
+@media(max-width:600px){
+
+    #map{
+        height: 70vh;
+    }
+  
+
+}
